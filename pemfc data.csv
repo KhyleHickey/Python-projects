@@ -1,0 +1,13 @@
+Input,Description,Value
+E0,"No load voltage [V], Default Value:0.6",0.7
+KH2,Hydrogen valve constant [kmol.s^(-1).atm^(-1)],0.000843
+KH2O,Water valve constant [kmol.s^(-1).atm^(-1)],0.000281
+KO2,Oxygen valve constant [kmol.s^(-1).atm^(-1)],0.00252
+N0,Number of cells,236
+R,Internal ohmic resistance [ohm] (*Optional),0.00328125
+T,Fuel cell temperature [K],1273
+i-start,Cell operating current start point [A],0.1
+i-step,Cell operating current step,0.1
+i-stop,Cell operating current end point [A],300
+rho,Hydrogen-Oxygen flow rate,1.145
+u,Fuel utilization ratio,0.8
